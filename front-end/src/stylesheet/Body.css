@@ -1,0 +1,15 @@
+.Body {
+  text-align: center;
+}
+
+
+.Body-header {
+  background-color: white;
+  color:black;
+}
+
+.Body-into{
+  background-color: #222;
+  position: absolute;
+  top: 15px;
+}
