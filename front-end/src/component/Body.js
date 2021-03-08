@@ -3,18 +3,51 @@ import React, { Component } from 'react';
 
 class Body extends Component {
   
-
+ 
+  
   render() {
     return (
       <div className="Body">
         <div className="Body-header">
-         
-          <h2 className="Body-into">React Component Is there </h2>
-        </div>
-        <p className="App-intro">
-        Je suis bien connecté !
-        </p>
+
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+        <p>test</p>
+
+       </div>
+     
       </div>
+      
+
     );
   }
 }

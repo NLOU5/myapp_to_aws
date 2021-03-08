@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import logo from './component/logo.svg';
-import logotwo from './component/logo-two.svg';
+/*import logo from './component/logo.svg';
+import logotwo from './component/logo-two.svg';*/
 import logothree from './component/logo-three.svg';
 import './stylesheet/App.css';
+import './stylesheet/Body.css';
 import Body from './component/Body';
 
 
@@ -35,16 +36,26 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <img src={logothree} className="App-logo-two " alt="logo" />
-          <img src={logotwo} className="App-logo-three" alt="logo" />
-          <h2></h2>
+         {/*  <img src={logo} className="App-logo" alt="logo" />
+          <img src={logotwo} className="App-logo-three" alt="logo" /> 
+         */} 
+      
+         <h1 className="App-header-title">Percy_v2</h1>
+         <img src={logothree} className="App-logo-two" alt="logo" />  
+         <img src={logothree} className="App-logo-two-bis" alt="logo" />  
+          
         </div>
         <p className="App-intro">
         {this.state.apiResponse}
         </p>
-        <Body></Body>
+        
+        <div>
+        <Body></Body>          
+        </div>
+     
       </div>
+      
+
     );
   }
 }

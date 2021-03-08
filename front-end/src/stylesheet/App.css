@@ -2,17 +2,12 @@
   text-align: center;
 }
 
+/*
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 180px;
   position: absolute;
   left: 10%;
-}
-.App-logo-two {
-  animation: App-logo-spin infinite 20s linear;
-  height: 180px;
-  position: absolute;
-  left: 35%;
 }
 .App-logo-three {
   animation: App-logo-spin infinite 20s linear;
@@ -20,18 +15,54 @@
   position: absolute;
   left: 70%;
 }
+*/
+
+.App-logo-two {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  top: 0%;
+  position: absolute;
+  left: 1%;
+} 
+
+.App-logo-two-bis {
+  animation: App-logo-spin infinite 20s linear;
+  height: 60px;
+  top: 0%;
+  position: absolute;
+  right: 1%;
+} 
+
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  /*background-color: #222;*/
+  background-color:rgb(127, 182, 255);
+  border-bottom: 1px solid black;
+  height: 20px;
   padding: 20px;
   color: white;
 }
 
-.App-intro {
-  font-size: large;
+.App-header-title {
+  /*background-color: #222;*/
+/*  background-color:rgb(127, 182, 255);*/
+  position: absolute;
+  font-size: 30px;
+  font-style: italic;
   font-weight: bold;
-  color: cadetblue;
+  color: black;
+  top: -1%;
+  right: 50%;
+
+}
+
+.App-intro {
+  font-size: 5px;
+  position: absolute;
+  font-weight: bold;
+  top: 1%;
+  right:15%;
+  color:green;
 }
 
 @keyframes App-logo-spin {
